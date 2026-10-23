@@ -16,7 +16,9 @@ Large Language Models (LLMs) remain vulnerable to jailbreak attacks that elicit 
   - **Input Form Evasion**: Text transformation, encoding & encryption
   - **Model Behavior Hijacking**: Instruction manipulation, continuation exploitation, resource abuse
 
-<img src="figs/taxonomy.png" alt="Classification System" width="60%" />
+<p align="center">
+  <img src="figs/taxonomy.png" alt="Classification System" width="40%" />
+</p>
 
 - **🔄 Iterative Reflective Search**: Four specialized agents operate in a closed loop:
   - **Planner** — constructs an initial Strategy Program
@@ -31,7 +33,9 @@ Large Language Models (LLMs) remain vulnerable to jailbreak attacks that elicit 
 
 ## 🏗️ Architecture
 
-![Classification System](figs/framework.png)
+<p align="center">
+  <img src="figs/framework.png" alt="Classification System" width="60%" />
+</p>
 
 The framework follows a four-stage loop: **Planning → Composition → Evaluation → Revision**. Each attack is represented as a declarative Strategy Program specifying which atomic strategies to use and how the Composer should instantiate them. Query-level memory provides priors for initial planning; strategy-level memory guides revision after failed attempts.
 
