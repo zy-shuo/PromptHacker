@@ -34,7 +34,7 @@ Large Language Models (LLMs) remain vulnerable to jailbreak attacks that elicit 
 ## 🏗️ Architecture
 
 <p align="center">
-  <img src="figs/framework.png" alt="Classification System" width="60%" />
+  <img src="figs/framework.png" alt="Classification System" width="80%" />
 </p>
 
 The framework follows a four-stage loop: **Planning → Composition → Evaluation → Revision**. Each attack is represented as a declarative Strategy Program specifying which atomic strategies to use and how the Composer should instantiate them. Query-level memory provides priors for initial planning; strategy-level memory guides revision after failed attempts.
