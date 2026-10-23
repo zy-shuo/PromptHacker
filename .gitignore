@@ -1,6 +1,3 @@
-.env
-models.json
-config/*_models.json
-config/legacy/
+/models.json
 __pycache__/
 *.pyc

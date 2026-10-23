@@ -1,0 +1,15 @@
+{
+  "default_model": "deepseek-v3",
+  "models": {
+    "deepseek-v3": {
+      "backend": "api",
+      "model": "deepseek-ai/DeepSeek-V3",
+      "api_key": "YOUR_API_KEY",
+      "base_url": "https://your-provider.example/v1",
+      "max_tokens": 2048,
+      "temperature": 1.0,
+      "top_p": 0.9,
+      "token_parameter": "max_tokens"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "default_model": "gpt-3.5-turbo",
+  "models": {
+    "llama-3-8b-local": {
+      "backend": "local",
+      "model": "Llama-3-8B-Instruct",
+      "local_path": "",
+      "device_map": "auto",
+      "dtype": "bfloat16",
+      "max_tokens": 2048,
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "token_parameter": "max_tokens"
+    },
+    "gpt-3.5-turbo": {
+      "backend": "api",
+      "model": "gpt-3.5-turbo-1106",
+      "api_key": "YOUR_API_KEY",
+      "base_url": "https://your-provider.example/v1",
+      "max_tokens": 2048,
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "token_parameter": "max_completion_tokens"
+    }
+  }
+}
