@@ -1,0 +1,6 @@
+.env
+models.json
+config/*_models.json
+config/legacy/
+__pycache__/
+*.pyc
