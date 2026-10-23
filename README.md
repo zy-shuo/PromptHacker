@@ -16,7 +16,7 @@ Large Language Models (LLMs) remain vulnerable to jailbreak attacks that elicit 
   - **Input Form Evasion**: Text transformation, encoding & encryption
   - **Model Behavior Hijacking**: Instruction manipulation, continuation exploitation, resource abuse
 
-![Classification System](figs/taxonomy.png)
+<img src="figs/taxonomy.png" alt="Classification System" width="60%" />
 
 - **🔄 Iterative Reflective Search**: Four specialized agents operate in a closed loop:
   - **Planner** — constructs an initial Strategy Program
